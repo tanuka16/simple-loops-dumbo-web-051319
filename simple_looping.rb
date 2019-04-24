@@ -13,6 +13,9 @@ counter = 0
     counter += 1
     puts phrase
 
+    if counter <= 7
+      break
+
 
   end
   phrase = "Welcome to Flatiron School's Web Development Course!"
