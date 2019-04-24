@@ -13,7 +13,7 @@ phrase = "Welcome to Flatiron School's Web Development Course!"
 loop do
   number_of_times += 1
   puts phrase
-  break unless number_of_times > 7
+  break if number_of_times == 7
 
   end
 end
