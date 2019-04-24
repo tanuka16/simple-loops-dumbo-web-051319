@@ -16,8 +16,6 @@ counter = 0
     if counter <= 7
       break
     end 
-
-
   end
   phrase = "Welcome to Flatiron School's Web Development Course!"
 
