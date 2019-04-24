@@ -44,10 +44,9 @@ def until_iterator(number_of_times)
   # hint: use a counter to tell the until loop when to stop!
   phrase = "Welcome to Flatiron School's Web Development Course!"
   number_of_times = o
-  until number_of_times < 7
+  until number_of_times == 7
     puts phrase
     number_of_times += 1
-
   end
 
 end
